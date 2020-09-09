@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_apis/build/status/chef-base-plans.postgresql?branchName=master)](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_build/latest?definitionId=179&branchName=master)
+[![Build Status](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_apis/build/status/chef-base-plans.postgresql?branchName=master)](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_build/latest?definitionId=250&branchName=master)
 
 This packages PostgreSQL in a Habitat package that can be run with the Habitat Supervisor.  This PostgreSQL plan supports standalone and clustered modes.  See [documentation](https://www.postgresql.org/docs/)
 
