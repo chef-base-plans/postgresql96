@@ -15,4 +15,4 @@ name: 0.0$(Rev:.r)
 
 # Execute the stages from the main pipeline template
 stages:
-  - template: azure-pipelines-temp.yml@plan_builder
+  - template: azure-pipelines-temp.yml
