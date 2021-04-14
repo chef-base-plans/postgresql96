@@ -43,7 +43,9 @@ stages:
           # Install Habitat to perform the build using the plan file
           - task: vsts-habitat-install@3
             displayName: Install Habitat
-          
+            inputs:
+              habitatOrigin: ${{ parameters.habitatServiceConnectionName }}
+
           # Write out signing keys, revisions and set the HAB_ORIGIN using the named service connection
           - task: vsts-habitat-signing-key@3
             displayName: Configure Habitat Environment
