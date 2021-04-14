@@ -26,7 +26,7 @@ control 'core-plans-postgresql96-habservice-works' do
   describe command('hab svc status') do
     its('stdout') { should_not be_empty }
     its('stdout') { should match /(?<package>#{plan_pkg_ident})\s+(?<type>standalone)\s+(?<desired>up)\s+(?<state>up)/ }
-    # its('stderr') { should be_empty }
+    its('stderr') { should be_empty }
     its('exit_status') { should eq 0 }
   end
 
